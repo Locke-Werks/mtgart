@@ -2,13 +2,21 @@
   "name": "mtgart",
   "version": "0.1.0",
   "private": true,
+  "description": "Custom Magic-style card art generator: Scryfall lookup, AI art, print-ready proxies.",
+  "author": "Locke Werks",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lockewerks/mtgart.git"
+  },
   "scripts": {
     "dev": "next dev -H 0.0.0.0 -p 3000",
     "build": "next build",
     "start": "next start -H 0.0.0.0 -p 3000",
     "typecheck": "tsc --noEmit",
     "generate:one": "tsx scripts/generate-one.ts",
-    "test:print": "tsx scripts/test-print.ts"
+    "test:print": "tsx scripts/test-print.ts",
+    "demo": "tsx scripts/demo-cards.ts"
   },
   "dependencies": {
     "next": "^15.5.0",
