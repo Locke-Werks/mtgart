@@ -1,4 +1,17 @@
+<div align="center">
+
+<img src="assets/mtgart.ico" width="96" alt="MTGArt">
+
 # MTGArt
+
+**Card names in, print-ready proxies out, every card in one locked style at 300 DPI**
+
+[![license](https://img.shields.io/badge/license-GPLv3-d6262a?style=flat-square)](LICENSE)
+![platform](https://img.shields.io/badge/platform-Next.js%2015-d6262a?style=flat-square)
+
+</div>
+
+---
 
 Point it at a list of card names and it hands you back a stack of cards so pretty
 they look like they fell out of a booster pack from a parallel universe where the
